@@ -27,7 +27,6 @@ router.get('/:id', (req, res) => {
   Product.findByPk(req.params.id,{
     include:[Category],
     include:[Tag],
-    include:[ProductTag]
 })
 .then(dbCategory =>{
   res.json(dbCategory)
@@ -110,8 +109,8 @@ router.delete('/:id', (req, res) => {
     where: {
       id: req.params.id
     }
-  }).then(delCategory => {
-    res.json(delCategory);
+  }).then(delProduct => {
+    res.json(delProduct);
   })
   .catch(err => {
     console.log(err);
