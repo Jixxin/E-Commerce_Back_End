@@ -3,7 +3,7 @@
 ## Description
 The E-Commerce_Back_End is a simple program that showcases a crud application. 
 
-![Screenshot of Insomnia](./assets/photo.PNG)
+![Screenshot of Insomnia](./Assets/photo.PNG)
 
 ## Video of Usage
 
